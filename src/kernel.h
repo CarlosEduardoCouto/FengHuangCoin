@@ -1,8 +1,9 @@
-// Copyright (c) 2012-2015 The Peercoin developers
+// Copyright (c) 2011-2016 Peercoin (PPCoin) Developers
+// Copyright (c)      2017 FHCoin Team
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#ifndef PPCOIN_KERNEL_H
-#define PPCOIN_KERNEL_H
+#ifndef FHCOIN_KERNEL_H
+#define FHCOIN_KERNEL_H
 
 #include "main.h"
 
@@ -49,4 +50,4 @@ unsigned int GetStakeModifierChecksum(const CBlockIndex* pindex);
 // Check stake modifier hard checkpoints
 bool CheckStakeModifierCheckpoints(int nHeight, unsigned int nStakeModifierChecksum);
 
-#endif // PPCOIN_KERNEL_H
+#endif // FHCOIN_KERNEL_H

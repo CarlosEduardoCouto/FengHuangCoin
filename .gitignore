@@ -1,7 +1,7 @@
 src/*.exe
-src/ppcoin
-src/ppcoind
-src/test_ppcoin
+src/fhcoin
+src/fhcoind
+src/test_fhcoin
 src/build.h
 .*.swp
 *.*~*
@@ -10,11 +10,11 @@ src/build.h
 *.orig
 *.o
 *.patch
-.ppcoin
+.fhcoin
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-ppcoin-qt
+fhcoin-qt
 #resources cpp
 qrc_*.cpp
 #qt creator
